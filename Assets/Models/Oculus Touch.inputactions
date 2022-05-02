@@ -1,0 +1,166 @@
+{
+    "name": "Oculus Touch",
+    "maps": [
+        {
+            "name": "Right Controller",
+            "id": "5905f6e3-eaf5-4c02-b623-b69efcc9ee3c",
+            "actions": [
+                {
+                    "name": "A Pressed",
+                    "type": "Button",
+                    "id": "2bc0207f-ee6b-4303-b499-a6c9c1af2822",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "B Pressed",
+                    "type": "Button",
+                    "id": "11db428e-fd78-40c9-99f8-7291e413a730",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Trigger Axis",
+                    "type": "Value",
+                    "id": "aaf25c10-bdf5-47d1-9988-8df23f353043",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Thumbstick Axis",
+                    "type": "Value",
+                    "id": "08439c57-aa8e-4ec0-9ed8-6dbef1ada925",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Grip Axis",
+                    "type": "Value",
+                    "id": "8e65c997-4a66-4ebf-874f-da1edc728db2",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Trigger Touch",
+                    "type": "Button",
+                    "id": "f9ac4a08-b5e4-4819-b5f1-6ead99f3820e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RightThumbstick Clicked",
+                    "type": "Button",
+                    "id": "f5ef25dc-6e6a-4005-8af3-2d7434af41e5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "LeftThumbstick Clicked",
+                    "type": "Button",
+                    "id": "9a7e040f-eaf4-45ab-90b4-0c0dcb2ddac0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "86fb68b5-062c-464d-b15f-66acaea5d806",
+                    "path": "<OculusTouchController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "A Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3bb45d33-339e-4519-8818-f0732aa68cc5",
+                    "path": "<OculusTouchController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "B Pressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7d90a2a7-1288-40bc-8cf8-12ff18b6249b",
+                    "path": "<OculusTouchController>{RightHand}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger Axis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a079862b-cead-4957-b103-df2650c282ae",
+                    "path": "<OculusTouchController>{RightHand}/thumbstick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Thumbstick Axis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "904c6c09-43f7-4bf7-b6aa-213fe41c707a",
+                    "path": "<OculusTouchController>/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Grip Axis",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6fe42438-646f-4446-a770-68b023db7869",
+                    "path": "<Keyboard>/#(A)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Trigger Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5d756bca-5db4-43d3-8d16-e6a2c153b071",
+                    "path": "<OculusTouchController>{RightHand}/thumbstickClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightThumbstick Clicked",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3380d6df-cc8b-4663-af30-8284a89ca90c",
+                    "path": "<OculusTouchController>{LeftHand}/thumbstickTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftThumbstick Clicked",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
