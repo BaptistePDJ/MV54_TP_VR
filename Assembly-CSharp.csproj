@@ -54,7 +54,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\InputsBehavior.cs" />
-    <Compile Include="Assets\Script\TeleporterBehavior.cs" />
+    <Compile Include="Assets\Script\Right_TeleporterBehavior.cs" />
+    <Compile Include="Assets\Script\Left_TeleporterBehavior.cs" />
+    <Compile Include="Assets\Script\InteractorBehavior.cs" />
+    <Compile Include="Assets\Script\GrabbableBehavior.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

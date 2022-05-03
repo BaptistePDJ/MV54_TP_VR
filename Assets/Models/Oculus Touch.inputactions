@@ -68,6 +68,22 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "RightTriggerPressed",
+                    "type": "Button",
+                    "id": "aa92ec8c-a363-49ef-849b-4a1e4ec1b649",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "LeftTriggrerPressed",
+                    "type": "Button",
+                    "id": "d88570dd-7422-4b01-85af-2ff0b5e8e77b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -156,6 +172,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "LeftThumbstick Clicked",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a4cdb9e9-51d4-4c9b-928c-b45a8b623620",
+                    "path": "<OculusTouchController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightTriggerPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5ef61934-87af-42e8-a5a3-f24af8e69dc4",
+                    "path": "<OculusTouchController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftTriggrerPressed",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
